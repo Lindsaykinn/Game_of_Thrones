@@ -1,6 +1,5 @@
-require "game_of_thrones/version"
+#this class represents the data
 
 module GameOfThrones
-  class Error < StandardError; end
-  # Your code goes here...
+  VERSION = "0.1.0"
 end

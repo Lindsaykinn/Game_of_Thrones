@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+#environment file will have all of our files and gems
+
+require_relative "../lib/environment"
+
+#we have required all of the files needed in `environment.rb` so everything is defined by the time the program starts with CLI.new.start
+#with code below we are instantiating a new instance of the CLI object and running the start method
+Cli.new.start
+
+
