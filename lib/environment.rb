@@ -6,9 +6,10 @@ require "json"
 
 require "awesome_print"
 
-require_relative "./game_of_thrones"
 require_relative "./services/api"
 require_relative "./services/cli"
+require_relative "./models/characters"
+require_relative "./models/houses"
 
 
 module GameOfThrones
