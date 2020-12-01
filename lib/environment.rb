@@ -6,13 +6,16 @@ require "json"
 
 require "awesome_print"
 
+
+
+
 require_relative "./services/api"
 require_relative "./services/cli"
-require_relative "./models/characters"
-require_relative "./models/houses"
+require_relative "./game_of_thrones"
 
 
-module GameOfThrones
-  class Error < StandardError; end
-  # Your code goes here...
-end
+
+# module GameOfThrones
+#   class Error < StandardError; end
+#   # Your code goes here...
+# end
