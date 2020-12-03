@@ -17,9 +17,7 @@ class Cli
         menu
     end
 
-    end    
-
-    def menu
+   def menu
         input = get_input
         if input == "1"
                 puts "TOP GOT CHARACTERS:".bold.underline
@@ -124,9 +122,8 @@ class Cli
             invalid_choice
             select_again_or_exit
         end
-
-
     end
+end
     
 
 

@@ -1,4 +1,4 @@
-require_relative 'lib/game_of_thrones/version'
+require_relative 'lib/game_of_thrones'
 
 Gem::Specification.new do |spec|
   spec.name          = "game_of_thrones"
