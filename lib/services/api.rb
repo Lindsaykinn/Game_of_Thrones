@@ -19,9 +19,10 @@ class Api
     # response = RestClient.get("https://thronesapi.com/api/v2/Characters")
     response = RestClient.get (base_url + '/api/v2/Characters')
     # binding.pry
-    data = JSON.parse(response.body)  #returns all data in JSON format (I added awesome print)
+    data = JSON.parse(response.body)  #returns all data in JSON format 
     data.each do |character_data|
         Character.new(character_data)
+        # binding.pry
         end
     end
 
