@@ -4,13 +4,7 @@ require "rest-client"
 #we want to return our data in json formatting (hashes)
 require "json"
 
-require "awesome_print"
-
 require "colored"
-
-
-
-
 
 require_relative "./services/api"
 require_relative "./services/cli"

@@ -9,7 +9,7 @@
 
     @@all = []
 
-    def initialize(data)        
+    def initialize(data)
         @name = data["fullName"]
         @title = data["title"]
         @family = data["family"]
@@ -19,6 +19,12 @@
 
     def self.all
         @@all
+    end
+
+    def self.find_by_name(name)
+      #iterate through my list of characters and return a specific character
+      all.select {|character| character.name == name}
+
     end
 
 
