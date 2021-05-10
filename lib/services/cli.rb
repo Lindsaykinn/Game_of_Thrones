@@ -33,8 +33,6 @@ class Cli
             menu_options
         else
             find_by_name(input)
-            # Character.find_by_name(input)
-            # print_out_character_details(input)
             invalid_choice
             menu_options
         end 
@@ -45,7 +43,6 @@ class Cli
             if char.name == input 
                 character = Character.all[i-1]
                 print_out_character_details(character)
-                #select_again_or_exit
                 menu_options
             end
             end       

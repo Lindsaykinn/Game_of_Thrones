@@ -21,11 +21,11 @@
         @@all
     end
 
-    def self.find_by_name(name)
-      #iterate through my list of characters and return a specific character
-      all.select {|character| character.name == name}
+    # def self.find_by_name(name)
+    #   #iterate through my list of characters and return a specific character
+    #   all.select {|character| character.name == name}
 
-    end
+    # end
 
 
   end

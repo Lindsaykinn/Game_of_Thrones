@@ -29,7 +29,7 @@ class Api
         base_url
         response = RestClient.get(base_url + '/api/v2/Characters')
         data = JSON.parse(response.body)
-        data.map {|x| x.values[5]}.uniq
+        # data.map {|x| x.values[5]}.uniq
         
 
     end

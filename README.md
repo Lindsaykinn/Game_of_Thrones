@@ -22,6 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
+Type `bin/run` in terminal to start the program
+
 Follow the menu prompts to learn more about the Game of Thrones most popular characters.
 
 ## Development
